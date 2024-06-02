@@ -1,0 +1,8 @@
+local args = {
+    [1] = item,
+    [2] = true
+}
+
+game:GetService("ReplicatedStorage").Remotes.Server.Initiate_Server:FireServer(unpack(args))
+--source free pls ko lay
+--lay lam chó
